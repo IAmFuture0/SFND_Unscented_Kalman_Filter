@@ -95,6 +95,16 @@ class UKF {
 
   // Sigma point spreading parameter
   double lambda_;
+
+  // radar measurmeent dimension
+  int n_z_rad_;
+
+  // lidar measurement dimension
+  int n_z_lid_;
+  
+  Eigen::VectorXd x_pred_;
+  
+  Eigen::MatrixXd P_pred_;
 };
 
 #endif  // UKF_H
