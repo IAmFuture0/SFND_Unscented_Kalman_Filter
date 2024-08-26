@@ -1,5 +1,4 @@
 #include <iostream>
-#include <random>
 #include "tools.h"
 
 using namespace std;
@@ -139,4 +138,3 @@ pcl::PointCloud<pcl::PointXYZ>::Ptr Tools::loadPcd(std::string file)
 
   return cloud;
 }
-
